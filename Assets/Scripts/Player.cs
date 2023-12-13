@@ -11,13 +11,10 @@ public class Player : MonoBehaviour
     private bool isMoving = false;
     Animator myAnimator;
 
-    RigidBody rigidBody;
-
     // Start is called before the first frame update
     void Start()
     {
         myAnimator = gameObject.GetComponent<Animator>();
-        rigidBody = gameObject.GetComponent<RigidBody>();
     }
 
     void Update()
@@ -57,6 +54,13 @@ public class Player : MonoBehaviour
                 isMoving = false;
                 myAnimator.SetBool("moveFwd", false);
             }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision){
+        if(collision.gameObject.CompareTag("professor1"))
+        {
+
         }
     }
 }
