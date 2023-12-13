@@ -352,12 +352,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Kawaii Slimes/Cameras/Scripts/AbstractTargetFollower.cs"
-"Assets/Kawaii Slimes/Cameras/Scripts/FreeLookCam.cs"
-"Assets/Kawaii Slimes/Cameras/Scripts/PivotBasedCameraRig.cs"
-"Assets/Kawaii Slimes/Scripts/AI/EnemyAi.cs"
-"Assets/Kawaii Slimes/Scripts/AI/Face.cs"
-"Assets/Kawaii Slimes/Scripts/GameManager.cs"
+"Assets/Downloads/Kawaii Slimes/Cameras/Scripts/AbstractTargetFollower.cs"
+"Assets/Downloads/Kawaii Slimes/Cameras/Scripts/FreeLookCam.cs"
+"Assets/Downloads/Kawaii Slimes/Cameras/Scripts/PivotBasedCameraRig.cs"
+"Assets/Downloads/Kawaii Slimes/Scripts/AI/EnemyAi.cs"
+"Assets/Downloads/Kawaii Slimes/Scripts/AI/Face.cs"
+"Assets/Downloads/Kawaii Slimes/Scripts/GameManager.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 

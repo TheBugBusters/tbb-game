@@ -9,12 +9,15 @@ public class Player : MonoBehaviour
     public float moveSpeed = 5.0f; // Adjust this to control the character's speed.
     private Vector3 targetPosition;
     private bool isMoving = false;
-
     Animator myAnimator;
+
+    RigidBody rigidBody;
+
     // Start is called before the first frame update
     void Start()
     {
         myAnimator = gameObject.GetComponent<Animator>();
+        rigidBody = gameObject.GetComponent<RigidBody>();
     }
 
     void Update()
