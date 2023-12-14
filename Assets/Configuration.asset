@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Configuration
   m_EditorClassIdentifier: 
   Categories:
-  - CategoryName: Math
+  - CategoryName: math
     Questions:
     - Question: "Quanto \xE9 1 + 1 ?"
       Answer1: 1

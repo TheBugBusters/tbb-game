@@ -6,6 +6,7 @@ public class QuestionsManager : Singleton<QuestionsManager>
     public string CategoryName;
     public QuestionsUI Question;
     private GameManagerGame _gameManager;
+    private QuestionModel _currentQuestion;
 
  
     private void Start(){
@@ -16,12 +17,18 @@ public class QuestionsManager : Singleton<QuestionsManager>
     }
 
     void LoadNextQuestion(){
-        var newQuestion = _gameManager.GetQuestionForCategory(CategoryName);
+        _currentQuestion = _gameManager.GetQuestionForCategory(CategoryName);
         
-        if(newQuestion != null)
+        if(_currentQuestion != null)
         {
-            Question.PopulateQuestion(newQuestion);
+            Question.PopulateQuestion(_currentQuestion);
         }
         
+    }
+
+
+    public bool AnswerQuestion(int answerIndex)
+    {
+        return _currentQuestion.CorrectAnswerIndex == answerIndex;
     }
 }

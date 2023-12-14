@@ -104,6 +104,7 @@
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Downloads/DialogueEditor/Assets/Scripts/SetParamAction.cs" />
     <Compile Include="Assets/Quiz System/Scripts/UI/AnswerEffect.cs" />
+    <Compile Include="Assets/Scripts/UI/AnswerUI.cs" />
     <Compile Include="Assets/Quiz System/Scripts/Gameplay/QuizOpenerManual.cs" />
     <Compile Include="Assets/Scripts/Buttons/HidePanelButton.cs" />
     <Compile Include="Assets/Downloads/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs" />
