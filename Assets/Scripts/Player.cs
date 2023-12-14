@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class Player : MonoBehaviour
 {
 
@@ -10,6 +12,8 @@ public class Player : MonoBehaviour
     private Vector3 targetPosition;
     private bool isMoving = false;
     Animator myAnimator;
+
+    public string nomeDesafio;
 
     // Start is called before the first frame update
     void Start()
@@ -58,9 +62,10 @@ public class Player : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision){
-        if(collision.gameObject.CompareTag("professor1"))
+        if(collision.transform.CompareTag("professor1"))
         {
-
+            isMoving = false;
+            SceneManager.LoadScene(nomeDesafio);
         }
     }
 }
